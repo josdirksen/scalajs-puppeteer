@@ -8,7 +8,7 @@ import scala.scalajs.js.annotation.{JSImport, ScalaJSDefined}
 object PuppeteerFacade {
 
   val defaultOptions = new Options() {
-    val executablePath = "/Users/jos/dev/git/workbench-example-app/target/scala-2.12/scalajs-bundler/main/node_modules/puppeteer/.local-chromium/mac-494755/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    val executablePath = "/Users/jos/dev/git/scalajs-puppeteer/target/scala-2.12/scalajs-bundler/main/node_modules/puppeteer/.local-chromium/mac-494755/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
     val headless = false
   }
 

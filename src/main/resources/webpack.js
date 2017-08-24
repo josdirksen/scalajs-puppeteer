@@ -1,6 +1,6 @@
 module.exports = {
     entry: {
-        "example-fastopt": ["/Users/jos/dev/git/workbench-example-app/target/scala-2.12/scalajs-bundler/main/example-fastopt.js"]
+        "example-fastopt": ["/Users/jos/dev/git/scalajs-puppeteer/target/scala-2.12/scalajs-bundler/main/example-fastopt.js"]
     },
     output: {
         filename: "bundle.js" // Output file
