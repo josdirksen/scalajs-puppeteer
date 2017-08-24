@@ -14,6 +14,8 @@ mainClass in Compile := Some("example.RunMe")
 
 libraryDependencies ++= Seq()
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.2"
+libraryDependencies += "io.scalajs" %%% "nodejs" % "0.4.0"
+libraryDependencies += "org.typelevel" %%% "cats-core" % "1.0.0-MF"
 
 npmDependencies in Compile += "puppeteer" -> "0.9.0"
 npmDependencies in Compile += "bufferutil" -> "^3.0.2"

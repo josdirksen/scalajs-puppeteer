@@ -1,0 +1,1 @@
+Simple project showing an issue with puppeteer.
