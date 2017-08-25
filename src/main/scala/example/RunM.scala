@@ -18,7 +18,7 @@ object RunMe extends scala.scalajs.js.JSApp {
     val task = for {
       _          <- gotoInitialPage(initialPage)
       initialUrl <- getBackgroundImage
-      otherUrls  <- getMultipleBackground(100)
+      otherUrls  <- getMultipleBackgroundAndDownload(1000, "./imgs/")
     } yield (otherUrls :+ initialUrl)
 
     // run the task in the context of a page
